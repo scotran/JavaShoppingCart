@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffd166;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #ef476f;
+	font-family: 'Poppins', sans-serif;
+}
+
+#balanceli, li:last-child {
+	float: right;
+}
+
+.active {
+	background-color: #05d5a0;
+}
+
+li a, #balance {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+  	text-decoration: none;
+  	color: black;
+}
+
+li a:hover {
+	background-color: #e7bf60;
+}

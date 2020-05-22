@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+}
+
+.loginbox {
+	background-color: cyan;
+	margin: 10px auto;
+	width: 200px;
+	border: 5px inset red;
+	padding-bottom: 30px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#button {
+	margin-top: 10px;
+	border: 1px outset black;
+}

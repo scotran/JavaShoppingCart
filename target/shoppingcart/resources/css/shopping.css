@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+.main {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+
+.container {
+ 	display: grid;
+	justify-items: center;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;	
+	row-gap: 15px;
+	font-family: 'Noto Sans JP', sans-serif; 
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border: 3px outset #05d5a0;
+}
+
+.title {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+form {
+	text-align: center;
+}
+
+form input[type=submit] {
+	margin-top: 15px;
+	background-color: #ef476f;
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-decoration: none;
+  	cursor: pointer;
+  	border: 1px outset black;
+  	font-family: 'DM Mono', monospace;
+  	font-size: 15px;
+}
+
+form input[type=submit]:hover {
+	border: 1px outset #ffd166;
+	background-color: black;
+}

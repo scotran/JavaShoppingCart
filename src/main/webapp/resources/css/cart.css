@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+}
+
+hr.solid {
+ 	border-top: 3px solid #bbb;
+ 	margin-top: 10px;
+ 	margin-bottom: 25px;
+}
+
+.containerBar {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr 1fr;
+	justify-items: start;
+ 	font-family: 'Lora', serif; 
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	justify-items: start;
+	align-items: center;
+	margin-bottom: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container img {
+	height: 100px;
+	width: 100px;
+	border: 3px outset #ffd166;
+	justify-self: center;
+}
+
+.summary {
+	display: grid;
+	margin-right: 125px;
+	justify-items: end;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	row-gap: 20px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ordersummary {
+	font-family: 'PT Serif', serif;
+	font-size: 25px;
+}
+
+form input[type=text] {
+	width: 50px;
+}
+
+form input[type=submit] {
+	background-color: #ef476f;
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-decoration: none;
+  	cursor: pointer;
+  	border: 1px outset black;
+  	font-family: 'DM Mono', monospace;
+}
+
+form input[type=submit]:hover {
+	border: 1px outset #ffd166;
+	background-color: black;
+}
+
+#checkout {
+	font-size: 25px;
+	padding: 10px 20px;
+}
+
+form input[value="Remove Item"] {
+	font-size: 15px;
+}

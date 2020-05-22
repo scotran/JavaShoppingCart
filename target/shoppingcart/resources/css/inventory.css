@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+}
+
+hr.solid {
+ 	border-top: 3px solid #bbb;
+ 	margin-top: 10px;
+ 	margin-bottom: 25px;
+}
+
+.containerBar {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	justify-items: start;
+ 	font-family: 'Lora', serif;
+ 	font-size: 20px; 
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	justify-items: start;
+	align-items: center;
+	margin-bottom: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 35px;
+}
+
+.container img {
+	height: 100px;
+	width: 100px;
+	border: 3px outset #ffd166;
+	justify-self: center;
+}

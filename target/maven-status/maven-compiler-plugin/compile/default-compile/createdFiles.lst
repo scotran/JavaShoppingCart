@@ -1,0 +1,6 @@
+com/notthebest/web/InventoryController.class
+com/notthebest/web/dao/UserDao.class
+com/notthebest/web/UserController.class
+com/notthebest/web/dao/InventoryDao.class
+com/notthebest/web/model/Inventory.class
+com/notthebest/web/model/User.class
