@@ -4,8 +4,9 @@ A virtual shopping web application built using Java Servlet and JSP technologies
 
 This project allows users to create accounts and login to individual accounts. Accounts start with $1000, and users are able to add items to the cart in the shopping page. Users can finalize and purchase items in the cart, and items appear in the inventory. Inventory and balance are stored in the database.
 
+**Preview images** :small_red_triangle_down:
 <details>
-<summary>Some images of the web application</summary>
+<summary>Some images of the web application </summary>
 
 * Login Portal
 
@@ -57,8 +58,7 @@ Application will be found at url: `localhost:8080/shoppingcart/login.jsp` depend
 
 This project was a personal project to learn more about Java web development and database management.
 
-<details>
-<summary>A small summary of the skills touched upon during this project:</summary>
+A small summary of the skills touched upon during this project: :small_red_triangle_down:
 
 * Java Servlet, JSP, JSTL, HTML5, CSS and similar topics
 * HTTP data transfer
@@ -73,4 +73,3 @@ This project was a personal project to learn more about Java web development and
 * Apache Tomcat capabilities, functions, command line commands, and similar
 * The cost of a mystical banana :banana:
 * More! :)
-</details>
