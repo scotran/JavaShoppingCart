@@ -1,4 +1,4 @@
-# Virtual Shopping Cart
+# Virtual Shopping Cart :money_with_wings:
 
 A virtual shopping web application built using Java Servlet and JSP technologies and MySQL for database. The project features Model, View, and Controller (MVC) architecture.
 
@@ -65,11 +65,12 @@ This project was a personal project to learn more about Java web development and
 * Maven project organization and command usage for more productivity
 * MySQL syntax, basics, usage, connectivity, and similar
 * JDBC with MySQL and safe database practices
+* Software/web application development processes
 * MVC architecture along with DAO, model, service layers, and similar
 * Login security, caching, database lookup, and similar
 * Shopping cart functions and design
 * Web application debugging
 * Apache Tomcat capabilities, functions, command line commands, and similar
-* The cost of a mystical banana
+* The cost of a mystical banana :banana:
 * More! :)
 </details>
