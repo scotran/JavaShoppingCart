@@ -54,7 +54,7 @@ OR
 
 Application will be found at url: `localhost:8080/shoppingcart/login.jsp` depending on local environment and current page
 
-##About
+## About
 
 This project was a personal project to learn more about Java web development and database management.
 
