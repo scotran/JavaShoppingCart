@@ -58,7 +58,7 @@ Application will be found at url: `localhost:8080/shoppingcart/login.jsp` depend
 
 This project was a personal project to learn more about Java web development and database management.
 
-A small summary of the skills touched upon during this project: :small_red_triangle_down:
+A small summary of the skills showcased during this project: :small_red_triangle_down:
 
 * Java Servlet, JSP, JSTL, HTML5, CSS and similar topics
 * HTTP data transfer
